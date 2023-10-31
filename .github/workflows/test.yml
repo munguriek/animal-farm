@@ -21,6 +21,6 @@ jobs:
       with:
         node-version: '18.x'
     - name: Run NPM
-      run: npm run
+      run: yarn run
     - name: Run tests
-      run: npm test
+      run: yarn test
